@@ -3,6 +3,8 @@ public class Main {
     static double us(double a, double b){
         if (b==1){
             return a;
+        } else if (b==0){
+            return 1;
         } else {
             return us(a,b-1)*a;
         }
