@@ -9,10 +9,10 @@ public class Main {
     }
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
-        System.out.println("a sayısını giriniz: ");
+        System.out.println("TABAN DEĞERİNİ giriniz: ");
         double a= in.nextDouble();
-        System.out.println("b sayısını giriniz: ");
+        System.out.println("ÜS DEĞERİNİ giriniz: ");
         double b= in.nextDouble();
-        System.out.println(us(a,b));
+        System.out.println("Sonuç : "+us(a,b));
     }
 }
